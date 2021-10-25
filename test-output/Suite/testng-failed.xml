@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.tab.qa.testcase.CategoryTest">
+        <methods>
+          <include name="setup"/>
+          <include name="AddNewCategory" invocation-numbers="0"/>
+          <include name="verifyCureentUrl"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.tab.qa.testcase.CategoryTest -->
+      <class name="com.tab.qa.testcase.ProductTest">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.tab.qa.testcase.ProductTest -->
+      <class name="com.tab.qa.testcase.HomePageTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.tab.qa.testcase.HomePageTest -->
+      <class name="com.tab.qa.testcase.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.tab.qa.testcase.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
